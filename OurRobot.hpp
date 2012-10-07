@@ -1,12 +1,11 @@
 //=============================================================================
-//File Name: OurRobot.h
+//File Name: OurRobot.hpp
 //Description: Holds declaration of OurRobot class
-//Author: Tyler Veness
-//Date/Version: $Id: OurRobot.h,v 1.2 2012/04/17 23:49:03 tav Exp $
+//Author: FRC Team 3512, Spartatroniks
 //=============================================================================
 
-#ifndef ROBOTCLASS_H_
-#define ROBOTCLASS_H_
+#ifndef OUR_ROBOT_HPP
+#define OUR_ROBOT_HPP
 
 #include <SimpleRobot.h>
 #include <Timer.h>
@@ -63,4 +62,4 @@ public:
 	void Disabled();
 };
 
-#endif /* ROBOTCLASS_H_ */
+#endif // OUR_ROBOT_HPP

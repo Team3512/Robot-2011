@@ -1,11 +1,10 @@
 //=============================================================================
 //File Name: Autonomous.cpp
 //Description: Holds autonomous code for robot
-//Author: Tyler Veness
-//Date/Version: $Id: Autonomous.cpp,v 1.2 2012/04/17 23:49:03 tav Exp $
+//Author: FRC Team 3512, Spartatroniks
 //=============================================================================
 
-#include "OurRobot.h"
+#include "OurRobot.hpp"
 
 void OurRobot::Autonomous() {
 	mainCompressor.Start();

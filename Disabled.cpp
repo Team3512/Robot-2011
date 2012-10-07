@@ -1,11 +1,10 @@
 //=============================================================================
 //File Name: Disabled.cpp
 //Description: This function runs when robot is in disabled state
-//Author: Tyler Veness
-//Date/Version: $Id: Disabled.cpp,v 1.2 2012/04/17 23:49:03 tav Exp $
+//Author: FRC Team 3512, Spartatroniks
 //=============================================================================
 
-#include "OurRobot.h"
+#include "OurRobot.hpp"
 
 void OurRobot::Disabled() {
 	mainCompressor.Stop();

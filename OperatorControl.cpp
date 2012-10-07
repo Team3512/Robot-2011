@@ -2,10 +2,9 @@
 //File Name: OperatorControl.cpp
 //Description: Handles driver controls for robot
 //Author: Tyler Veness
-//Date/Version: $Id: OperatorControl.cpp,v 1.2 2012/04/17 23:49:03 tav Exp $
 //=============================================================================
 
-#include "OurRobot.h"
+#include "OurRobot.hpp"
 #include <Timer.h>
 #include <math.h>
 
