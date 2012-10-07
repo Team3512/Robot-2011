@@ -243,12 +243,12 @@
         </mapAttribute>
     </attributes>
     <buildtargets>
-        <buildtarget buildtool="Linker" name="ThermopylaeNew" passed="false" targetname="ThermopylaeNew">
+        <buildtarget buildtool="Linker" name="Thermopylae" passed="false" targetname="Thermopylae">
             <contents>
-                <buildtargetreference name="/Thermopylae/ThermopylaeNew_partialImage"/>
+                <buildtargetreference name="/Thermopylae/Thermopylae_partialImage"/>
             </contents>
         </buildtarget>
-        <buildtarget buildtool="Partial Image Linker" name="ThermopylaeNew_partialImage" passed="true" targetname="ThermopylaeNew_partialImage">
+        <buildtarget buildtool="Partial Image Linker" name="Thermopylae_partialImage" passed="true" targetname="Thermopylae_partialImage">
             <contents>
                 <folder name="/Thermopylae" recursive="true"/>
             </contents>
