@@ -18,4 +18,4 @@ add_executable(Thermopylae.out ${SRC})
 
 target_link_libraries(Thermopylae.out ${WPILib_LIBRARY})
 
-add_make_deploy(Cynisca.out 10.35.12.2)
+add_make_deploy(Thermopylae.out 10.35.12.2)
