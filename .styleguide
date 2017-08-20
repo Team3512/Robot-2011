@@ -1,43 +1,13 @@
 cExtensions {
   c
-  h
 }
 
 cppHeaderExtensions {
+  h
   hpp
   inl
 }
 
 cppSrcExtensions {
   cpp
-}
-
-otherExtensions {
-}
-
-genFolderExclude {
-}
-
-genFileExclude {
-}
-
-modifiableFolderExclude {
-}
-
-modifiableFileExclude {
-}
-
-includeRelated {
-}
-
-includeCSys {
-}
-
-includeCppSys {
-}
-
-includeOtherLibs {
-}
-
-includeProject {
 }
