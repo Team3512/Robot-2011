@@ -12,9 +12,6 @@
 
 #include "ButtonTracker.hpp"
 
-// If defined, uses Xbox controller instead of dual joysticks
-#define XBOX
-
 /**
  * Holds declaration of OurRobot class
  */
@@ -30,10 +27,8 @@ private:
     RobotDrive mainDrive{3, 1, 2, 4};
 
     Joystick driveStick1{0};
-    ButtonTracker driveStick1Tracker{0};
 
     Joystick driveStick2{1};
-    ButtonTracker driveStick2Tracker{1};
 
     Joystick armStick{2};
     ButtonTracker armStickTracker{2};

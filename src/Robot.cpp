@@ -30,31 +30,19 @@ void Robot::OperatorControl() {
         armMotorRight.Set(armStick.GetY());
 
         // Opens/closes claw
-        if (armStick.GetTrigger()) {
+        if (armStickTracker.PressedButton(1)) {
             claw.Set(!claw.Get());
-
-            while (armStick.GetTrigger()) {
-                Wait(0.01);
-            }
         }
 
         // Extends/retracts elbow joint
-        if (armStick.GetRawButton(2)) {
+        if (armStickTracker.PressedButton(2)) {
             elbow.Set(!elbow.Get());
-
-            while (armStick.GetRawButton(2)) {
-                Wait(0.01);
-            }
         }
 
         // Deploys/resets minibot tray
-        if (armStick.GetRawButton(6)) {
+        if (armStickTracker.PressedButton(6)) {
             tray.Set(!tray.Get());
             trayTime.Reset();
-
-            while (armStick.GetRawButton(6)) {
-                Wait(0.01);
-            }
         }
 
         // If tray is deployed and user wants to deploy minibot
@@ -76,8 +64,6 @@ void Robot::OperatorControl() {
             pins.Set(false);
         }
 
-        driveStick1Tracker.Update();
-        driveStick2Tracker.Update();
         armStickTracker.Update();
     }
 }
