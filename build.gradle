@@ -70,11 +70,11 @@ model {
 
             sources.cpp {
                 source {
-                    srcDirs = ['src/main/cpp', 'thirdparty/cpp', 'build/generated/cpp']
-                    include '**/*.cpp', '**/*.cc'
+                    srcDir 'src/main/cpp'
+                    include '**/*.cpp'
                 }
                 exportedHeaders {
-                    srcDirs = ['src/main/include', 'thirdparty/include', 'build/generated/include']
+                    srcDir 'src/main/include'
                 }
             }
 
@@ -99,7 +99,6 @@ model {
                 source {
                     srcDir 'src/test/cpp'
                     include '**/*.cpp'
-                    include '**/*.cc'
                 }
 
                 exportedHeaders {
